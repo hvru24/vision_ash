@@ -1,7 +1,7 @@
 <header>
   
 <center>
-![структура папок](./1g.png)
+![структура папок](https://github.com/hvru24/vision_ash/blob/main/1g.png)
 </center>
 
 # VISION
