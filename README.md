@@ -1,7 +1,7 @@
 <header>
   
 <center>
-![структура папок](https://github.com/hvru24/vision_ash/blob/main/1g.png?raw=true)
+![1g](https://github.com/user-attachments/assets/fb2f3a16-a9a5-477f-b68d-289a5b967910)
 </center>
 
 # VISION
@@ -16,7 +16,7 @@ _**VISION** - это система мониторинга, предназнач
 Проект состоит из двух частей: серверной стороны (для атакующего) и клиентской стороны (для жертвы).
 
 <center>
-![структура папок](./2g.png)
+![2g](https://github.com/user-attachments/assets/7d1f1c56-b3f0-463a-a16d-90207f546ff5)
 </center>
 
 - `server.py` — Серверная часть, которая получает данные о системе жертвы и видеопоток.
