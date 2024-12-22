@@ -1,6 +1,6 @@
 <header>
 
-![1g](https://github.com/user-attachments/assets/fb2f3a16-a9a5-477f-b68d-289a5b967910)
+![1g](https://github.com/user-attachments/assets/9ccbb479-f5e6-4e3e-8946-9c7b0939294d)
 
 # VISION
 
