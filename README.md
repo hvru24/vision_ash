@@ -59,7 +59,7 @@ git clone https://github.com/hvru24/vision_ash/tree/main
 SERVER_URL = "https://example.ngrok-free.app"
 ```  
 
-6.Соберите flash.py в исполняемый файл (exe). Введите команду из директории `VISION`:  
+6.Соберите flash.py в исполняемый файл (exe). Введите команду из директории **`VISION`**:  
 ```
 pyinstaller --onefile --noconsole flash.py
 ```
