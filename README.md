@@ -36,7 +36,9 @@ _**VISION** - это система мониторинга, предназнач
 - `requests` — Библиотека для отправки HTTP-запросов, используемая для передачи данных между клиентом и сервером. (Клиентская часть)
 
 Команда для установки всех зависимостей.  
-```pip install Flask pyinstaller opencv-python requests```
+```
+pip install Flask pyinstaller opencv-python requests
+```
 
 ## Быстрый старт
 
